@@ -2,16 +2,32 @@
     color: rgb(61, 61, 61);
     padding-top: 100px;
 }
+.nav{
+    height: 50px;
+}
 #nv-bar{
     top: 0;
-    position: fixed !important;
-    width: 85%
+    position: fixed;
+    width: 100%;
+}
+/* .navbar-toggler{
+    height: 30px;
+} */
+.navbar-toggler-icon{
+    height: 20px;
+    margin: auto;
 }
 .nav-right{
     margin-left: 50%;
 }
 .nav-link{
-    margin:0px 10px;
+    margin:0px, 10px;
+}
+#about{
+    background-color: rgb(211, 211, 237);
+}
+.prof{
+    font-size: 20px;
 }
 .img-logo{
     height: 50px;
@@ -28,24 +44,44 @@
     background-color: rgb(42, 100, 171);
     border-radius: 5px;
 }
-.card, .card-body{
+.my-card{
     display: flex;
+    margin: 20px;
+    border: 1px solid rgb(155, 154, 154);
+    border-radius: 5px;
 }
-.card-text{
-    margin: 100px;
+.card-body{
+    background-color: rgb(211, 211, 237);
+    padding: 80px;
+}
+.card-pic{
+    padding: 0px 80px;
+}
+#skills{
+    background-color: rgb(211, 211, 237);
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 span{
     background-color:gray;
     color: white;
     border-radius: 2px;
-    margin: 20px;
+    margin: 60px;
+    padding: 0px, 60px;
 }
 .inp{
     height: 40px;
+    text-align: center;
+}
+.inp-msg{
+    height: 100px;
 }
 .smb{
     color: white;
     background-color: rgb(42,100,171);
+}
+.card{
+    background-color: rgb(211, 211, 237);
 }
 footer{
     height: 100px;

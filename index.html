@@ -12,14 +12,14 @@
 </head>
 
 <body>
-    <section class="container">
+    <section class="nav">
         <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nv-bar">
             <div class="container-fluid">
-                <img class="img-logo" src="image/logo.png" alt="">
+                <img class="img-logo" src="image/my-logo.jpg" alt="Logo">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon light bg-light"></span>
                 </button>
                 <div class="collapse navbar-collapse ml-5 nav-right" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
@@ -28,48 +28,61 @@
                         <a class="nav-link" href="#skills">Skills</a>
                         <a class="nav-link" href="#about">About</a>
                         <a class="nav-link" href="#contact">Contact</a>
-                        <a href="" class="nav-link dwld resume">Resume <i class="fa-solid fa-download"></i></a>
+                        <a href="https://github.com/Programming-bro/portfolio/raw/main/portfolio/src/data/file/resume.pdf" class="nav-link dwld resume">Resume <i class="fa-solid fa-download"></i></a>
                     </div>
                 </div>
             </div>
         </nav>
     </section>
-    <section class="container" id="about">
+    <section class="container m-auto" id="about">
         <div class="row">
-            <div class="col col-md-8 p-5 about-d">
+            <div class="col col-md-8 col-sm-12 p-5 about-d">
                 <h1> Hi! <br> I'm M Hossain Pabon</h1>
                 <p class="prof">Web Developer || Programmer || CS Student</p>
                 <p class="details">I'm a Passionate Web Developer and a curious Programmer. Currently I'm a
                     undergraduate CSE Studenent of Rajshahi University of Engineering and Technology. I know HTML, CSS,
                     JavaScript and Python. Besides these I'm also comfortable in MySQL and Git.</p>
-                    <i class="fa-brands fa-github icons"></i>
-                    <i class="fa-brands fa-linkedin icons"></i>
-                    <i class="fa-brands fa-facebook icons"></i>
-                    <a class="resume p-3" href="">Resume <i class="fa-solid fa-download"></i></a>
+                    <a target="_blank" href="https://github.com/Programming-bro"><i class="fa-brands fa-github icons"></i></a>
+                    <a target="_blank" href="https://linkedin.com/in/md-hossain-pabon"><i class="fa-brands fa-linkedin icons"></i></a>
+                    <a target="_blank" href="https://facebook.com/mdhossainpabon"><i class="fa-brands fa-facebook icons"></i></a>
+                    <a class="resume p-3" href="https://github.com/Programming-bro/portfolio/raw/main/portfolio/src/data/file/resume.pdf">Resume <i class="fa-solid fa-download"></i></a>
             </div>
 
-            <div class="col col-md-4">
-                <img class="w-100 p-5" src="image/gias.jpg" alt="">
+            <div class="col col-md-4 col-sm-12">
+                <img class="w-100 p-5" src="image/pabon.jpeg" alt="HI">
             </div>
         </div>
     </section>
     <section class="container" id="portfolio">
         <h1 class="text-center">Portfolio</h1>
-        <div class="row d-flex">
+        <div class="row my-card d-flex">
             <div class="col col-md-6 card-pic">
-                <img class="w-100" src="image/travel-guru-map.png" alt="">
+                <img class="w-100 p-5 m-5 card-img" src="image/undraw_medicine_hqqg.png" alt="">
             </div>
             <div class="col col-md-6 card-body">
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quos.</p>
+                <h2 class="card-text">Medical management App</h2>
+                <p class="card-text">This project is made for my academic task. I've build this site to manage medical center of my University. During my 3rd semester our course advisor recomend to made such a software. This project in now under development.</p>
+                <i class="fa-solid fa-link icons"></i>
+                <br>
+                <br>
+                <span class="p-2 m-3">MySQL</span>
+                <span class="p-2 m-3">Python</span>
+                <span class="p-2 m-3">Bootrap</span>
             </div>
         </div>
-        <div class="row d-flex">
+        <div class="row my-card d-flex">
             <div class="col col-md-6 card-pic">
-                <img class="w-100" src="image/Travel-Search.png" alt="">
+                <img class="w-100 p-5 m-5 card-img" src="image/undraw_teaching_58yg.png" alt="">
             </div>
             <div class="col col-md-6 card-body">
-                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, maiores!</p>
-                
+                <h2 class="card-text">E-learning Platform</h2>
+                <p class="card-text">This is a simple e-learning website. I've made this for my friend who teaches student online. Students can learn academic curriculum from this site for free.</p>
+                <a target="_blank" href="https://Programming-bro.github.io/e-learning"><i class="fa-solid fa-link icons"></i></a>
+                <br>
+                <br>
+                <span class="p-2 m-3">HTML</span>
+                <span class="p-2 m-3">CSS</span>
+                <span class="p-2 m-3">JavaScript</span>
             </div>
         </div>
 
@@ -77,7 +90,7 @@
     <section class="container" id="skills">
         <h1 class="text-center">Skills</h1>
         <div class="row pt-5">
-            <div class="col col-md-6">
+            <div class="col col-md-6 col-sm-12">
                 <h3 class="m-4">Expertise:</h2>
                     <br>
                 <span class="p-2 m-3">C/C++</span>
@@ -102,7 +115,7 @@
                 <span class="p-2 m-3">VS Code</span>
                 <br>
             </div>
-            <div class="col col-md-6 mt-5 pt-5">
+            <div class="col col-md-6 col-sm-12 pt-5">
                 <h2>My Education</h1>
                 <p>Undergraduate Student</p>
                 <p>Department of Computer Science and Engineering (RUET)<p>
@@ -111,11 +124,11 @@
     </section>
     <section class="container" id="contact">
         <h1 class="text-center">Contact</h1>
-        <div class="card w-50 m-auto p-5">
+        <div class="card col-md-6 m-auto p-5">
             <form action="">
                  <input class="inp m-3 w-100" type="text" placeholder="Please type your Name" required>
             <input class="inp m-3 w-100" type="email" placeholder="Please type your Email" required>
-            <input class="inp m-3 w-100" type="text" placeholder="Type message" required>
+            <input class="inp inp-msg m-3 w-100" type="text" placeholder="Type message" required>
             <button class="m-3 w-100 smb" type="submit"> Send </button>
             </form>
            
