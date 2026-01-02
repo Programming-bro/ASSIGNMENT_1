@@ -1,0 +1,54 @@
+.container{
+    color: rgb(61, 61, 61);
+    padding-top: 100px;
+}
+#nv-bar{
+    top: 0;
+    position: fixed !important;
+    width: 85%
+}
+.nav-right{
+    margin-left: 50%;
+}
+.nav-link{
+    margin:0px 10px;
+}
+.img-logo{
+    height: 50px;
+}
+
+.icons{
+    font-size: 40px;
+    margin: 20px;
+    color:  rgb(42, 100, 171);
+}
+.resume{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(42, 100, 171);
+    border-radius: 5px;
+}
+.card, .card-body{
+    display: flex;
+}
+.card-text{
+    margin: 100px;
+}
+span{
+    background-color:gray;
+    color: white;
+    border-radius: 2px;
+    margin: 20px;
+}
+.inp{
+    height: 40px;
+}
+.smb{
+    color: white;
+    background-color: rgb(42,100,171);
+}
+footer{
+    height: 100px;
+    background-color: rgb(42, 100, 171);
+    color: white;
+}
