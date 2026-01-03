@@ -89,7 +89,11 @@ span{
     background-color: rgb(211, 211, 237);
 }
 footer{
-    height: 100px;
+    height: 200px;
     background-color: rgb(42, 100, 171);
+    color: white;
+}
+.footer-icons{
+    font-size: 40px;
     color: white;
 }
